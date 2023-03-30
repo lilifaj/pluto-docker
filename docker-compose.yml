@@ -1,5 +1,6 @@
 version: "2.16"
 services:
+  restart: unless-stopped
   pluto:
     build: .
     ports:

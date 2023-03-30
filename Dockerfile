@@ -1,4 +1,4 @@
-FROM julia:1.8.5-alpine3.17
+FROM julia:1.8.5-bullseye
 
 WORKDIR /opt/julia-pluto/notebooks/
 

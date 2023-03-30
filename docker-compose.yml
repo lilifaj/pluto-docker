@@ -1,7 +1,7 @@
 version: "2.16"
 services:
-  restart: unless-stopped
   pluto:
+    restart: unless-stopped
     build: .
     ports:
       - "1234:1234"
